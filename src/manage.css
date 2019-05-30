@@ -1,0 +1,78 @@
+.login-wrapper{
+    position: relative;
+    width: 400px;
+    height: 230px;
+    border: solid black 1px;
+    top: 50%;
+    transform: translate(60%,+100%);
+    background-color: (242,242,242);
+    font-size: larger;
+    color: darkgray;
+}
+.withdraw-wrapper{
+    position: relative;
+    width: 400px;
+    height: 230px;
+    border: solid black 1px;
+    top: 50%;
+    transform: translate(+180%,0);
+    background-color: (242,242,242);
+    font-size: larger;
+    color: darkgray;
+}
+
+.fund-wrapper{
+    position: relative;
+    width: 400px;
+    height: 230px;
+    border: solid black 1px;
+    top: 50%;
+    transform: translate(+300%,-100%);
+    background-color: (242,242,242);
+    font-size: larger;
+    color: darkgray;
+}
+
+.password-wrapper{
+    position: absolute;
+    border: solid black 1px;
+    width: 300px;
+    height: 50px;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.password-picture{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.password-picture>img{
+    width: 100%;
+    height: 100%;
+}
+.password-wrapper>input{
+    position: relative;
+    height: 40px;
+    width: 220px;
+    top: -14px;
+    right: -20px;
+    font-size: larger;
+    line-height: 40px;
+    letter-spacing: 3px;
+    border-style: none;
+}
+#login{
+    position: absolute;
+    border: solid black 1px;
+    width: 300px;   
+    height: 50px;
+    left: 50%;
+    transform: translate(-50%,250%);
+    font-size: 30px;
+    color: white;
+    letter-spacing: 5px;
+    background-color: sienna;
+}

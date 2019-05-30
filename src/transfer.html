@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>云计算银行网络应用-转账</title>
+    <link rel="stylesheet" href="transfer.css">
+</head>
+<body>
+    <div class="login">
+        <div class="login-wrapper">
+            <!-- 往后端传数据 -->
+            <form action="#" method="post">
+                <div class="username-wrapper">
+                    <div class="username-picture">
+                        <img src="../图标/account.png" alt="">
+                    </div>
+                    <input type="text" name="userID" placeholder="用户名">
+                </div>
+            
+                <div class="password-wrapper">
+                    <div class="password-picture">
+                        <img src="../图标/money.png" alt="">
+                    </div>
+                    <input type="text" name="account" placeholder="金额">
+                </div>
+                <!-- 转账接口函数为transfer() -->
+                <input id="login" type="submit" value="转账" onclick="transfer()">
+            </form>
+        </div>
+    </div>
+</body> 
+</html>

@@ -1,0 +1,87 @@
+.content{
+    position: relative;
+    width: 900px;
+    height: 700px;
+    left: 50%;
+    top: 80px;
+    transform: translate(-50%,0);
+}
+.username{
+    border-bottom: black 1px solid;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    font-size: 25px;
+    padding-left: 10px;
+    color: darkgray;
+}
+.username .username-content{
+    float: right;
+    padding-right: 50px;
+}
+.money{
+    border-bottom: black 1px solid;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    top: 75px;
+    line-height: 75px;
+    font-size: 25px;
+    padding-left: 10px;
+    color: darkgray;
+}
+.money .money-content{
+    float: right;
+    padding-right: 50px;
+}
+.fixedMoney{
+    border-bottom: black 1px solid;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    top: 150px;
+    line-height: 75px;
+    font-size: 25px;
+    padding-left: 10px;
+    color: darkgray;
+}
+.fixedMoney .fixedMoney-content{
+    float: right;
+    padding-right: 50px;
+}
+.fund{
+    border-bottom: black 1px solid;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    top: 225px;
+    line-height: 75px;
+    font-size: 25px;
+    padding-left: 10px;
+    color: darkgray;
+}
+.fund .fund-content{
+    float: right;
+    padding-right: 50px;
+}
+.stock{
+    border-bottom: black 1px solid;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    top: 300px;
+    line-height: 75px;
+    font-size: 25px;
+    padding-left: 10px;
+    color: darkgray;
+}
+.stock .stock-content{
+    float: right;
+    padding-right: 50px;
+}

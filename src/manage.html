@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>云计算银行网络应用-理财业务</title>
+    <link rel="stylesheet" href="manage.css">
+</head>
+
+<body>
+    <div class="login">
+        <div class="login-wrapper">
+            定期存款
+            <!-- 往后端传数据 -->
+            <form action="#" method="post">
+                <div class="password-wrapper">
+                    <div class="password-picture">
+                        <img src="../图标/money.png" alt="">
+                    </div>
+                    <!-- account1为定期存款,接口函数为buyFixedMoney() -->
+                    <input type="text" name="account1" placeholder="金额">
+                </div>
+                <input id="login" type="submit" value="购买" onclick="buyFixedMoney()">
+            </form>
+        </div>
+
+        <div class="withdraw-wrapper">
+            股票
+            <form action="#" method="post">
+                <div class="password-wrapper">
+                    <div class="password-picture">
+                        <img src="../图标/money.png" alt="">
+                    </div>
+                    <!-- account2为股票,接口函数为buyStock() -->
+                    <input type="text" name="account2" placeholder="金额">
+                </div>
+                <input id="login" type="submit" value="购买" onclick="buyStock()"> 
+            </form>
+        </div>
+        <div class="fund-wrapper">
+            基金
+            <form action="#" method="post">
+                    <div class="password-wrapper">
+                        <div class="password-picture">
+                            <img src="../图标/money.png" alt="">
+                        </div>
+                        <!-- account3为基金,接口函数为buyFund() -->
+                        <input type="text" name="account3" placeholder="金额">
+                    </div>
+                    <input id="login" type="submit" value="购买" onclick="buyFund()">
+                </form>
+        </div>
+    </div>
+</body>
+
+</html>

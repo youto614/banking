@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>云计算银行网络应用-转账</title>
+    <link rel="stylesheet" href="deposit.css">
+</head>
+
+<body>
+    <div class="login">
+        <div class="login-wrapper">
+            <!-- 往后端传数据 -->
+            <form action="#" method="post">
+                <div class="password-wrapper">
+                    <div class="password-picture">
+                        <img src="../图标/money.png" alt="">
+                    </div>
+                    <input type="text" name="account" placeholder="金额">
+                </div>
+                <!-- 存款接口函数为deposit() -->
+                <input id="login" type="submit" value="存款" onclick="deposit()">
+            </form>
+        </div>
+
+        <div class="withdraw-wrapper">
+            <form action="#" method="post">
+
+                <div class="password-wrapper">
+                    <div class="password-picture">
+                        <img src="../图标/money.png" alt="">
+                    </div>
+                    <input type="text" name="account" placeholder="金额">
+                </div>
+                <!-- 取款接口函数为withdraw() -->
+                <input id="login" type="submit" value="取款" onclick="withdraw()">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
